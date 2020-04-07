@@ -22,7 +22,6 @@ namespace DatingApp.API.Controllers
         {
             _config = config;
             _repo = repo;
-
         }
 
         [HttpPost("register")]
